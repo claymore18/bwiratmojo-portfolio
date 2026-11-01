@@ -12,7 +12,7 @@ tagline: "ICT Department | PT Bridgestone Tire Indonesia"
 email: "b.wiratmojo@outlook.com"
 phone: "+62 8960 2800 396"
 location: "Bekasi, West Java, Indonesia"
-avatarUrl: "" # Biarkan kosong dulu agar tidak error
+avatarUrl: "https://raw.githubusercontent.com/claymore18/bwiratmojo-portfolio/main/AvatarPortfolioGit.png" # Biarkan kosong dulu agar tidak error
 
 # ── Status & Theme ─────────────────────────────────────────────────────
 openToWork: true
