@@ -104,9 +104,11 @@ projects:
 education:
   - institution: "Bina Insani University"
     degree: "B.S. Informatics Engineering"
+    GPA: "3,44"
     period: "2019-2020"
   - institution: "STMIK Akademi Bina Insani"
     degree: "Diploma Management Informatics"
+    GPA: "3,07"
     period: "2005-2008"
 
 # ── Blog ───────────────────────────────────────────────────────────────
