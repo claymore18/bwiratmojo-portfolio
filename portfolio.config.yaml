@@ -16,8 +16,10 @@ avatarUrl: "https://raw.githubusercontent.com/claymore18/bwiratmojo-portfolio/ma
 
 # ── Status & Theme ─────────────────────────────────────────────────────
 openToWork: true
-defaultTheme: "system"
-colorPreset: "custom"
+# defaultTheme: "system"
+# colorPreset: "custom"
+defaultTheme: "light"
+colorPreset: "slate"
 primaryColor: "#2563EB" # Biru Tech
 
 resumeTheme:
