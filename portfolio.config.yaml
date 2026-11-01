@@ -20,7 +20,7 @@ openToWork: true
 # colorPreset: "custom"
 defaultTheme: "light"
 colorPreset: "slate"
-primaryColor: "#2563EB" # Biru Tech
+primaryColor: "#1D4ED8" # Biru Tech
 
 resumeTheme:
   twoColumn: "indigo"
