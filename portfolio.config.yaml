@@ -181,20 +181,6 @@ projects:
       Result: Ahead of Schedule. Delivered in November 2025. Pushed the cost impact close to zero, saving an estimated ~$250K+ in just 6 months.
     tags: [APP, DATA, GOVERNANCE]
     featured: true
-    
-  - name: "OpenDesk"
-    description: "An open-source project management tool built with React and Go. 2.3k GitHub stars. Real-time updates via WebSockets."
-    tags: [React, Go, WebSockets, PostgreSQL]
-    liveUrl: "https://opendesk.example.com"
-    repoUrl: "https://github.com/yourusername/opendesk"
-    featured: true
-
-  - name: "CodeLens"
-    description: "VS Code extension that uses AI to generate inline documentation. 10k+ installs from the marketplace."
-    tags: [TypeScript, OpenAI, "VS Code API"]
-    liveUrl: ""
-    repoUrl: "https://github.com/yourusername/codelens"
-    featured: true
 # ── Education ──────────────────────────────────────────────────────────
 education:
   - institution: "University of California, Berkeley"
