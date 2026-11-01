@@ -181,11 +181,15 @@ projects:
       Result: Ahead of Schedule. Delivered in November 2025. Pushed the cost impact close to zero, saving an estimated ~$250K+ in just 6 months.
     tags: [APP, DATA, GOVERNANCE]
     featured: true
+    
 # ── Education ──────────────────────────────────────────────────────────
 education:
-  - institution: "University of California, Berkeley"
-    degree: "B.S. Computer Science"
-    period: "2014 – 2018"
+  - institution: "Bina Insani University"
+    degree: "B.S. Informatics Engineering"
+    period: "2019-2020"
+  - institution: "STMIK Akademi Bina Insani"
+    degree: "Diploma Management Informatics"
+    period: "2005-2008"
 
 # ── Certifications ─────────────────────────────────────────────────────
 certifications:
