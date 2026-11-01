@@ -28,17 +28,17 @@ contactFormEndpoint: ""
 
 # ── Section visibility ─────────────────────────────────────────────────
 sections:
-  - { id: about,          show: false  }
-  - { id: stats,          show: false }
-  - { id: skills,         show: false  }
-  - { id: languages,      show: false } # Dimatikan karena belum ada data
+  - { id: about,          show: true  }
+  - { id: stats,          show: true }
+  - { id: skills,         show: true  }
+  - { id: languages,      show: true } 
   - { id: experience,     show: false  }
-  - { id: projects,       show: false  }
-  - { id: education,      show: false  }
+  - { id: projects,       show: true  }
+  - { id: education,      show: true  }
   - { id: certifications, show: false } # Dimatikan karena data dummy dihapus
   - { id: publications,   show: false }
   - { id: testimonials,   show: false } # Dimatikan karena data dummy dihapus
-  - { id: contact,        show: false }
+  - { id: contact,        show: true }
 
 # ── Social links ───────────────────────────────────────────────────────
 social:
@@ -234,6 +234,11 @@ education:
   - institution: "STMIK Akademi Bina Insani"
     degree: "Diploma Management Informatics - GPA: 3.07"
     period: "2005-2008"
+
+# ── Contact ──────────────────────────────────────────────────────────
+contact:
+  - email: "b.wiratmojo@outlook.com"
+  - call: "+62 8960 2800 396"
 
 # ── Blog ───────────────────────────────────────────────────────────────
 blog:
