@@ -12,17 +12,17 @@
 # ║                                                                      ║
 # ║  Change it to "portfolio" once you have filled in your details.      ║
 # ╚══════════════════════════════════════════════════════════════════════╝
-siteMode: "landing"   # ← CHANGE THIS to "portfolio"
-siteUrl:  "https://yourusername.github.io"  # ← Your GitHub Pages URL (used for RSS & canonical links)
+siteMode: "portfolio"   # ← CHANGE THIS to "portfolio"
+siteUrl:  "https://claymore18.github.io/bwiratmojo-portfolio/"  # ← Your GitHub Pages URL (used for RSS & canonical links)
 showPoweredBy: false  # Set to true to show a small "Made with GitVitae" badge in your footer (helps others discover GitVitae)
 
 # ── Identity ───────────────────────────────────────────── (required) ──
 name: "B.Wiratmojo"              # Your name — shown in the header and used as a fallback in the avatar
 title: "Lead Programmer - MES & Database"
-tagline: "I build free portfolios and resumes for everyone."
-email: "git-vitae@proton.me"
-phone: ""                    # Optional — e.g. "+1 (555) 000-1234". Shown in contact section and resume.
-location: "San Francisco, CA"
+tagline: "ICT Department | PT Bridgestone Tire Indonesia"
+email: "b.wiratmojo@outlook.com"
+phone: "+62 8960 2800 396"                    # Optional — e.g. "+1 (555) 000-1234". Shown in contact section and resume.
+location: "Bekasi, West Java, Indonesia"
 avatarUrl: "https://api.dicebear.com/9.x/fun-emoji/svg?seed=Alex&mouth[]=wideSmile&radius=12"  # Demo avatar — replace with your own photo URL (see instructions below)
 # How to add a profile photo (free, no extra account needed):
 #   1. Go to your GitHub repo → click "Add file" → "Upload files"
@@ -50,7 +50,9 @@ openToWork: true         # Shows "Open to Opportunities" banner when true
 
 # ── Theme ──────────────────────────────────────────────────────────────
 defaultTheme: "system"   # Options: light | dark | system
-colorPreset: "indigo"    # Options: indigo | emerald | rose | amber | ocean | slate | custom
+colorPreset: "custom"
+primaryColor: "#FFD700" # Warna Emas
+#colorPreset: "indigo"    # Options: indigo | emerald | rose | amber | ocean | slate | custom
 # primaryColor: "#6366f1" # Optional — pick any colour you like and paste its hex code here.
                            # Overrides colorPreset above. To find a hex code:
                            #   → Google "colour picker", pick a colour, copy the 6-digit code (e.g. #e11d48)
@@ -81,8 +83,8 @@ sections:
 
 # ── Social links ───────────────────────────── (leave blank to hide) ───
 social:
-  github:   "https://github.com/yourusername"
-  linkedin: "https://linkedin.com/in/yourusername"
+  github:   "https://github.com/claymore18"
+  linkedin: "http://www.linkedin.com/in/b-wiratmojo"
   twitter:  ""
   website:  ""
 
@@ -101,10 +103,11 @@ about: |
 # Optional fields: prefix (e.g. "$") and suffix (e.g. "+" or "k").
 # Remove all entries or set show: false above to hide this section.
 stats:
-  - { label: "Years Experience", value: 5,    suffix: "+" }
-  - { label: "Projects Shipped", value: 20,   suffix: "+" }
-  - { label: "Happy Clients",    value: 50,   suffix: "+" }
-  - { label: "Cups of Coffee",   value: 1200, suffix: ""  }
+  - { label: "System Projects", value: 30, suffix: "+" }
+  - { label: "Business Functions", value: 8, suffix: "" }
+  - { label: "IDR Saved (2024-25)", value: 9.6, prefix: "", suffix: "B+" }
+  - { label: "Projects Led in 2025", value: 33, suffix: "" }
+  - { label: "Sites Served", value: 3, suffix: "" }
 
 # Examples of other combinations you can use:
 #   - { label: "Active Users",    value: 10000, suffix: "+" }
@@ -120,14 +123,16 @@ languages:
 
 # ── Skills ─────────────────────────────────────────────────────────────
 skills:
-  - category: "Frontend"
-    items: [React, TypeScript, Next.js, Tailwind CSS, Framer Motion]
-  - category: "Backend"
-    items: [Node.js, Express, PostgreSQL, Redis, GraphQL]
-  - category: "DevOps"
-    items: [Docker, AWS, CI/CD, Kubernetes, Terraform]
-  - category: "Tools"
-    items: [Git, Figma, Jest, Storybook, Datadog]
+  - category: "APP"
+    items: [System & application development]
+  - category: "NETWORK"
+    items: [Network design, Wi-Fi, OT links]
+  - category: "SERVER / DC"
+    items: [Servers, DMZ, data center]
+  - category: "SECURITY"
+    items: [Firewall, VPN, API & pentest]
+  - category: "GOVERNANCE"
+    items: [PMO, charters, approvals]
 
 # ── Experience ─────────────────────────────────────────────────────────
 experience:
@@ -167,6 +172,16 @@ experience:
 # ── Projects ───────────────────────────────────────────────────────────
 # Set featured: true to show in the Featured section (max 3 recommended)
 projects:
+- name: "Digital Waste-Scrap Monitoring System"
+    description: |
+      "No project brief. No budget approved. Just one question and $250K saved."      
+      Situation: Top management flagged that waste-scrap data was a mess, with an estimated potential loss of $250,000 – $300,000 per year.
+      Task & Role: Stepped up as Lead to bridge the shop floor and boardroom.
+      Action: Presented findings and proposed an in-house digital waste-scrap monitoring system. Built it from scratch in June 2025.
+      Result: Ahead of Schedule. Delivered in November 2025. Pushed the cost impact close to zero, saving an estimated ~$250K+ in just 6 months.
+    tags: [APP, DATA, GOVERNANCE]
+    featured: true
+    
   - name: "OpenDesk"
     description: "An open-source project management tool built with React and Go. 2.3k GitHub stars. Real-time updates via WebSockets."
     tags: [React, Go, WebSockets, PostgreSQL]
