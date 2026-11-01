@@ -223,7 +223,7 @@ function preloadCriticalFontsPlugin(): Plugin {
 const isReplit = !!process.env.REPL_ID;
 
 export default defineConfig({
-  base: "./",
+  base: "/bwiratmojo-portfolio/",
   plugins: [
     react(),
     tailwindcss(),
