@@ -172,7 +172,7 @@ experience:
 # ── Projects ───────────────────────────────────────────────────────────
 # Set featured: true to show in the Featured section (max 3 recommended)
 projects:
-- name: "Digital Waste-Scrap Monitoring System"
+  - name: "Digital Waste-Scrap Monitoring System"
     description: |
       "No project brief. No budget approved. Just one question and $250K saved."      
       Situation: Top management flagged that waste-scrap data was a mess, with an estimated potential loss of $250,000 – $300,000 per year.
@@ -195,21 +195,6 @@ projects:
     liveUrl: ""
     repoUrl: "https://github.com/yourusername/codelens"
     featured: true
-
-  - name: "PriceWatch"
-    description: "Browser extension that tracks price history on e-commerce sites and alerts users to drops."
-    tags: [JavaScript, "Chrome API", Node.js]
-    liveUrl: "https://pricewatch.example.com"
-    repoUrl: "https://github.com/yourusername/pricewatch"
-    featured: false
-
-  - name: "Logbook"
-    description: "A minimalist journaling app with end-to-end encryption. Built in a weekend. 500+ users."
-    tags: ["React Native", SQLite, Crypto]
-    liveUrl: ""
-    repoUrl: "https://github.com/yourusername/logbook"
-    featured: false
-
 # ── Education ──────────────────────────────────────────────────────────
 education:
   - institution: "University of California, Berkeley"
