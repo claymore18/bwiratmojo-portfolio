@@ -6,7 +6,7 @@ siteUrl:  "https://claymore18.github.io/bwiratmojo-portfolio/"
 showPoweredBy: false
 
 # ── Identity ───────────────────────────────────────────────────────────
-name: "B.Wiratmojo"
+name: "B. WIRATMOJO"
 title: "Lead Programmer - MES & Database"
 tagline: "ICT Department | PT Bridgestone Tire Indonesia"
 email: "b.wiratmojo@outlook.com"
@@ -28,17 +28,17 @@ contactFormEndpoint: ""
 
 # ── Section visibility ─────────────────────────────────────────────────
 sections:
-  - { id: about,          show: true  }
+  - { id: about,          show: false  }
   - { id: stats,          show: false }
-  - { id: skills,         show: true  }
+  - { id: skills,         show: false  }
   - { id: languages,      show: false } # Dimatikan karena belum ada data
-  - { id: experience,     show: true  }
-  - { id: projects,       show: true  }
-  - { id: education,      show: true  }
+  - { id: experience,     show: false  }
+  - { id: projects,       show: false  }
+  - { id: education,      show: false  }
   - { id: certifications, show: false } # Dimatikan karena data dummy dihapus
   - { id: publications,   show: false }
   - { id: testimonials,   show: false } # Dimatikan karena data dummy dihapus
-  - { id: contact,        show: true  }
+  - { id: contact,        show: false }
 
 # ── Social links ───────────────────────────────────────────────────────
 social:
@@ -57,7 +57,7 @@ about: |
 stats:
   - { label: "System Projects", value: 30, suffix: "+" }
   - { label: "Business Functions", value: 8, suffix: "" }
-  - { label: "IDR Saved (2024-25)", value: 9.6, prefix: "", suffix: "B+" }
+  - { label: "IDR Saved (2024-2025)", value: 9.6, prefix: "", suffix: "B+" }
   - { label: "Projects Led in 2025", value: 33, suffix: "" }
   - { label: "Sites Served", value: 3, suffix: "" }
 
@@ -92,13 +92,139 @@ experience:
 projects:
   - name: "Digital Waste-Scrap Monitoring System"
     description: |
-      "No project brief. No budget approved. Just one question and $250K saved."      
+      "No project brief. No budget approved. Just one question and $250K saved."
       Situation: Top management flagged that waste-scrap data was a mess, with an estimated potential loss of $250,000 – $300,000 per year.
-      Task & Role: Stepped up as Lead to bridge the shop floor and boardroom.
-      Action: Presented findings and proposed an in-house digital waste-scrap monitoring system. Built it from scratch in June 2025.
+      Task & Role: Stepped up as Lead to bridge the shop floor and boardroom. Authorized to investigate, I spent 3-4 days directly on the production floor.
+      Action: Proposed an in-house digital waste-scrap monitoring system with a real-time dashboard. Built it from scratch in June 2025.
       Result: Ahead of Schedule. Delivered in November 2025. Pushed the cost impact close to zero, saving an estimated ~$250K+ in just 6 months.
     tags: [APP, DATA, GOVERNANCE]
     featured: true
+
+  - name: "Rolling Forecast"
+    description: |
+      Situation: Sales & supply planning required accurate demand prediction to avoid overstocking.
+      Task & Role: System designer and developer for predictive forecasting.
+      Action: Built rolling forecast with exponential smoothing/moving average formulas, 12-month lookahead, and Power BI dashboards.
+      Result: Presented globally at APIC-SCM Vietnam; saved IDR 5.1 billion (Yr 1) and IDR 200 million (Yr 2).
+    tags: [APP, GOVERNANCE]
+    featured: true
+
+  - name: "Tire Warehouse WMS and SAP Integration"
+    description: |
+      Situation: Cloud WMS from AurionPro needed to exchange data with SAP across regional networks.
+      Task & Role: ICT Lead to make the whole chain work end-to-end.
+      Action: Designed integration path, set up SFTP in DMZ, arranged VPN, worked with BSIN network teams, mapped Wi-Fi access points, and built custom middleware.
+      Result: WMS went live with stable SAP link, secure ongoing firewall traffic management.
+    tags: [APP, NETWORK, SERVER/DC, SECURITY]
+    featured: true
+
+  - name: "Canteen Management System"
+    description: |
+      Situation: Transitioning the canteen application from project development into operational runtime for all plant (BKS-KRW-HO).
+      Task & Role: Developer and handover lead to institutionalize business ownership.
+      Action: Registered and provisioned all plant users, established clear operational guidelines, and formally transitioned daily oversight to the HRGA department.
+      Result: Successfully institutionalized sustainable, business-led operations. Ensured zero downtime post-handover.
+    tags: [APP, GOVERNANCE]
+    featured: false
+
+  - name: "Contract Management System"
+    description: |
+      Situation: The Legal team was still tracking contract and license expiry dates by hand.
+      Task & Role: Sole developer, taking it from analysis to rollout.
+      Action: Built a weighted phase project plan, use cases, database model, and email reminder modules.
+      Result: Achieved 85% completion on schedule. The governance framework built here became the company-wide gold standard.
+    tags: [APP, GOVERNANCE]
+    featured: false
+
+  - name: "Data-Driven Investigations"
+    description: |
+      Situation: The company faced situations where data was in dispute and nobody could say for sure what had happened.
+      Task & Role: Trusted to find the truth in data and establish defensible facts.
+      Action: Traced over a decade of asset numbering errors with Finance, proved vendor database patches, and identified input data barcode issues.
+      Result: Established neutral evidence-based findings for clear answers.
+    tags: [DATA, SECURITY]
+    featured: false
+
+  - name: "SunFish HRIS Integration"
+    description: |
+      Situation: Attendance machines and HR database needed smooth integration with the new SunFish platform.
+      Task & Role: ICT point of contact for technical migration.
+      Action: Worked with vendor DataOn on machine integration and backups, resolved attendance log queries.
+      Result: Successful go-live supporting daily HR operations.
+    tags: [APP, SERVER/DC]
+    featured: false
+
+  - name: "Finance and HR Digitalization"
+    description: |
+      Situation: Manual work and spreadsheets dominated Finance and HR workflows.
+      Task & Role: Analyst and developer to implement systematic digital solutions.
+      Action: Developed Tanaoroshi, FC Automation, e-Billing, e-Archive, RM Ledger, Debit Note.
+      Result: Systems remain in daily operation with positive user feedback.
+    tags: [APP, GOVERNANCE]
+    featured: false
+
+  - name: "Attendance Database Migration"
+    description: |
+      Situation: Principal vendor failed to complete the attendance database migration.
+      Task & Role: Took over migration Biostar-1 to Biostar-2 in-house.
+      Action: Executed migration across Bekasi, Karawang, and Head Office, built duplicate-upload prevention logic.
+      Result: Saved approximately IDR 48 million in vendor fees.
+    tags: [APP, SERVER/DC, DATA]
+    featured: false
+
+  - name: "Clinic Management System"
+    description: |
+      Situation: Tight timeline for a new clinic system with extensive master data requirements.
+      Task & Role: Sole ICT resource responsible for complete system delivery.
+      Action: Created hardware cost estimates, streamlined schedules, cleaned 469 hospitals & 2,073 diagnoses master data.
+      Result: Successfully deployed, caught HR Director’s attention, and spawned an in-house Phase 2.
+    tags: [APP, GOVERNANCE]
+    featured: false
+
+  - name: "Final Inspection Tag Re-Engineering"
+    description: |
+      Situation: Karawang's legacy desktop app was unsupported by modern OS, while Bekasi used newer versions.
+      Task & Role: ICT Project Lead to unify both plants.
+      Action: Set up project structure, timeline, approval workflow, and weekly progress alignments.
+      Result: Established clear governance framework for unified plant operations.
+    tags: [APP, GOVERNANCE]
+    featured: false
+
+  - name: "Asset Management System"
+    description: |
+      Situation: Asset data contained years of discrepancies needing audit-ready reliability.
+      Task & Role: ICT owner to clean data and build a trusted management system.
+      Action: Analysed asset numbering errors with Finance, mapped multi-step approval workflows.
+      Result: Cleaned data successfully supported internal and external audits.
+    tags: [APP, GOVERNANCE]
+    featured: false
+
+  - name: "Portfolio of Small Digitization Projects"
+    description: |
+      Situation: Simultaneous digitization requests from multiple departments risked bottlenecks.
+      Task & Role: Portfolio ICT owner to manage multi-project execution.
+      Action: Implemented status reporting, split procurement budgets to prevent stalling.
+      Result: Delivered Shuttle Bus system, Raw Material Visualization, Face Recognition, Handheld OCR, and BELVI.
+    tags: [APP, GOVERNANCE]
+    featured: false
+
+  - name: "Raw Material Warehouse WMS"
+    description: |
+      Situation: Paper, spreadsheet, and coin-based kanban boards caused lack of real-time tracking.
+      Task & Role: Initiator and ICT Lead to create a unified in-house WMS.
+      Action: Authored system design docs covering tagging, FEFO kanban, barcode picking, SAP GR/GI interfaces.
+      Result: Replaced paper workflows with automated Material Request trials.
+    tags: [APP, DESIGN, GOVERNANCE]
+    featured: false
+
+  - name: "Raw Material Demand Supply Planning (DSP RMPU)"
+    description: |
+      Situation: Manual supply planning caused inventory imbalances and manual Position Table compilation.
+      Task & Role: Lead developer and system designer to automate forecasting.
+      Action: Coded real purchasing rules (lead times, MOQ, auto-adjust targets, stock alerts), integrated SAP and RM Ledger data.
+      Result: Passed 149 of 149 UAT test cases, released to production.
+    tags: [APP, GOVERNANCE]
+    featured: false
     
 # ── Education ──────────────────────────────────────────────────────────
 education:
