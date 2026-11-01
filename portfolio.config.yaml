@@ -23,7 +23,7 @@ tagline: "ICT Department | PT Bridgestone Tire Indonesia"
 email: "b.wiratmojo@outlook.com"
 phone: "+62 8960 2800 396"                    # Optional — e.g. "+1 (555) 000-1234". Shown in contact section and resume.
 location: "Bekasi, West Java, Indonesia"
-avatarUrl: "https://github.com/claymore18/bwiratmojo-portfolio/blob/18bfc6d9d9c91f97267864f2b15793683c3e9f9b/AvatarPortfolioGit.png"  # Demo avatar — replace with your own photo URL (see instructions below)
+avatarUrl: "https://raw.githubusercontent.com/claymore18/bwiratmojo-portfolio/main/AvatarPortfolioGit.png"  # Demo avatar — replace with your own photo URL (see instructions below)
 # How to add a profile photo (free, no extra account needed):
 #   1. Go to your GitHub repo → click "Add file" → "Upload files"
 #   2. Upload your photo (e.g. avatar.jpg) into a folder called "public/"
